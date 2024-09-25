@@ -1,0 +1,15 @@
+.label-custom {
+  @apply block text-sm font-semibold text-gray-800 mb-2 transition duration-150 ease-in-out;
+}
+  
+.select-custom {
+  @apply mt-1 block w-full p-4 border-2 border-gray-300 rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition duration-150 ease-in-out bg-white text-gray-800 placeholder-gray-400;
+}
+  
+.select-custom:hover {
+  @apply border-blue-400;
+}
+
+.select-custom:focus-visible {
+  @apply ring-2 ring-blue-500;
+}
